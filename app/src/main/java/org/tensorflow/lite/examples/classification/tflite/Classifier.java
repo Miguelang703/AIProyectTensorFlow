@@ -63,7 +63,7 @@ public abstract class Classifier {
   }
 
   /** Number of results to show in the UI. */
-  private static final int MAX_RESULTS = 3;
+  private static final int MAX_RESULTS = 4;
 
   /** The loaded TensorFlow Lite model. */
   private MappedByteBuffer tfliteModel;
